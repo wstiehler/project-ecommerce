@@ -1,5 +1,7 @@
 # ProjectEcommerce
 
+Run `ng g c nameComponent` for add component in project. 
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.3.
 
 ## Development server
