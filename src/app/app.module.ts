@@ -10,6 +10,8 @@ import { HomeComponent } from './home/home.component';
 import { SobreComponent } from './sobre/sobre.component';
 import { FeatureComponent } from './feature/feature.component';
 import { ListagemComponent } from './produto/listagem/listagem.component';
+import { HttpClientModule } from '@angular/common/http';
+import { ProdutoService } from './produto/service/produto.service';
 
 @NgModule({
   declarations: [
@@ -24,9 +26,12 @@ import { ListagemComponent } from './produto/listagem/listagem.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
-  providers: [],
+  providers: [
+    ProdutoService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

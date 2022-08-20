@@ -1,0 +1,20 @@
+{
+    "produtos": [
+        {
+            "id": 1,
+            "nome": "mouse microsoft",
+            "valor": 15.90,
+            "promocao": true,
+            "valorPromocional": 100,
+            "imagem": "mouse.jpg"
+        },
+        {
+            "id": 2,
+            "nome": "mouse microsoft",
+            "valor": 15.90,
+            "promocao": false,
+            "valorPromocional": 0,
+            "imagem": "mouse.jpg"
+        }
+    ]
+}
