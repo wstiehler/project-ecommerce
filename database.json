@@ -16,5 +16,17 @@
             "valorPromocional": 0,
             "imagem": "mouse.jpg"
         }
+    ],
+    "usuarios": [
+        {
+            "id": 1,
+            "nome": "William Villani",
+            "imagem": "perfil.jpg"
+        },
+        {
+            "id": 2,
+            "nome": "Fillipi Villani",
+            "imagem": "fillipi.jpg"
+        }
     ]
 }

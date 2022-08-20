@@ -10,8 +10,11 @@ import { HomeComponent } from './home/home.component';
 import { SobreComponent } from './sobre/sobre.component';
 import { FeatureComponent } from './feature/feature.component';
 import { ListagemComponent } from './produto/listagem/listagem.component';
+import { UsuarioComponent } from './usuario/listagem/usuario.component';
 import { HttpClientModule } from '@angular/common/http';
 import { ProdutoService } from './produto/service/produto.service';
+import { UsuarioService } from './usuario/service/usuario.service';
+
 
 @NgModule({
   declarations: [
@@ -22,7 +25,8 @@ import { ProdutoService } from './produto/service/produto.service';
     HomeComponent,
     SobreComponent,
     FeatureComponent,
-    ListagemComponent
+    ListagemComponent,
+    UsuarioComponent,
   ],
   imports: [
     BrowserModule,
@@ -30,7 +34,8 @@ import { ProdutoService } from './produto/service/produto.service';
     HttpClientModule
   ],
   providers: [
-    ProdutoService
+    ProdutoService,
+    UsuarioService
   ],
   bootstrap: [AppComponent]
 })

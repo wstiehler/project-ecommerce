@@ -9,4 +9,4 @@ dev-start-project:
 	@ng serve
 
 dev-start-backend:
-	@npx json-server --watch produtos.json
+	@npx json-server --watch database.json
